@@ -1,0 +1,19 @@
+*, *::after, *::before{  /* ::after cria um pseudo-elemento que é o último filho do elemento selecionado. Muitas vezes é usado para adicionar e melhorar o conteúdo de um elemento como a propriedade content. É inline por padrão.*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/fundo_homen-aranha.svg);
+    background-size: cover;
+}
+
+.color-overlay {
+    background: linear-gradient(180deg, #040C1B 7.81%, rgba(4, 12, 27, 0.7) 35.42%, #040C1B 89.06%);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
