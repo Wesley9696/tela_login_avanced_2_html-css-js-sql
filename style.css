@@ -14,23 +14,51 @@ body {
     background-size: cover;
 }
 
-img,
-svg {
+header{
+    width: 100%;
+    padding-top: 16px;
+}
+
+img, svg {
     display: block;
     width: 100%;
-    border: 1px solid red;
 }
 
 .logo {
     width: 112px;
-    height: 163px;
-    left: 1224px;
-    top: 69px;
+
+}
+
+.navbar{
+    max-width: 1440px;
+    margin: 0 auto;
+    border:  1px solid green;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border{
+    border: 2px solid blue;
 }
 
 .container-social {
     width: 40px;
-    height: 376px;
-    left: 104px;
-    top: 532px;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-list li{
+    margin: 24px;
 }
