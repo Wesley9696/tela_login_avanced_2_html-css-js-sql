@@ -62,3 +62,7 @@ img, svg {
 .nav-list li{
     margin: 24px;
 }
+
+.container-social img{
+    margin: 72px;
+}
